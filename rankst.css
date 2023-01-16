@@ -24,15 +24,12 @@ body {
 	margin: 0 -5px;
  }
 
-/* Clear floats after the columns */
 #row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-
-/* Responsive columns */
 @media screen and (max-width: 600px) {
   .col {
     width: 100%;
@@ -41,33 +38,32 @@ body {
   }
 }
 
-/* Style the counter cards */
-#user {
+#uid {
     display: flex;
     align-items: center;
 }
 
-#useri {
-	margin-left: 20px;
+#uidi {
+   margin-left: 20px;
 }
 
 #name {
-	font-weight: 600;
+    font-weight: 600;
     font-size: 20px;
     color: red;
 }
 
 #sts {
-	padding: 8px 2px;
-	font-weight: 600;
-    font-size: 16px;
-  font-family: Arial, sans-serif;
+   padding: 8px 2px;
+   font-weight: 600;
+   font-size: 16px;
+   font-family: Arial, sans-serif;
 }
 
 #avim {
-  vertical-align: left;
-  width: 80px;
-  height: 80px;
+   vertical-align: left;
+   width: 80px;
+   height: 80px;
 }
 
 #tx {
@@ -75,21 +71,21 @@ body {
 }
 
 #sk {    
-  background:#3D9970;
-  padding:4px;
-  color:#fff;
-  border-radius:3px;
+   background:#3D9970;
+   padding:4px;
+   color:#fff;
+   border-radius:3px;
 }
 
 #go {
-	background:#D4AF37;
+    background:#D4AF37;
     padding:4px;
     color:#fff;
     border-radius:3px;
 }
 
 #si {
-	background:#adacac;
+    background:#adacac;
     padding:4px;
     color:#fff;
     border-radius:3px;
